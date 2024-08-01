@@ -1,7 +1,7 @@
 *,*::before,*::after {
 
     box-sizing: border-box ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 
 }
@@ -14,7 +14,7 @@ body {
 .calculator-grid {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     min-height: 100 vh;
     grid-template-columns: repeat(4,100px);
     grid-template-rows:minmax(120px,auto)repeat(5,100px);
@@ -40,7 +40,7 @@ body {
     background-color: rgba(0,0,0,.75);
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between ;
     flex-direction: column;
     padding: 10px;
     word-wrap:break-word;
