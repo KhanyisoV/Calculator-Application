@@ -20,7 +20,7 @@ body {
   padding: 20px;
   font-size: 5rem;
   text-align: left;
-  border: none;
+  border-bottom: solid #fff 1px; /* Just to make it look more authentic?🤣 */
   background-color: hsl(0, 0%, 20%);
   color: aliceblue;
 }
@@ -32,8 +32,9 @@ body {
   padding: 25px;
 }
 button {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  /* Those buttons were big lol */
   border-radius: 50px;
   border: none;
   background-color: hsl(0, 0%, 30%);
