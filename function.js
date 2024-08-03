@@ -14,7 +14,7 @@ function clearDisplay() {
 
 function calculate() {
   try {
-    display.value = eval(display.value);
+    display.value = eval(display.value); // Ahh you watch Bro Code too bro ? 😌
   } catch (error) {
     display.value = "Error";
   }
