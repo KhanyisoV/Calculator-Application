@@ -69,3 +69,7 @@ button:active {
 #Author {
   color: #fff;
 }
+#Author:hover {
+  /*when a mouse hovers over your name, the link changes color */
+  color: orange;
+}
