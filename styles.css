@@ -64,3 +64,6 @@ button:active {
 .operator-btn:active {
   background-color: hsl(35, 100%, 70%);
 }
+#Author {
+  color: #fff;
+}
