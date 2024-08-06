@@ -1,75 +1,77 @@
-#calculator{
+/** @format */
 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    border-radius: 15px;
-    max-width: 500px;
-    overflow: hidden;
-
+#calculator {
+  margin-top: 15px; /*This gives spacing above the calculator */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  max-width: 400px;
+  height: fit-content;
+  overflow: hidden;
 }
-body{
-
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: hsl(0, 0%, 95%);
-
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content; /* This makes it easier for you to fit everything in the body without finding the actual size */
+  background-image: linear-gradient(
+    to right,
+    orange,
+    black
+  ); /* Looked dull at the back there*/
+  text-decoration: none;
 }
-#display{
-
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    text-align: left;
-    border: none;
-    background-color: hsl(0, 0%, 20%);
-    color: aliceblue;
-
-}
-
-#keys{
-
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 25px;
-}
-button{
-
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
-    color: aliceblue;
-    font-size: 3rem;
-    font-weight: bolc;
-    cursor: pointer;
-
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border-bottom: solid #fff 1px; /* Just to make it look more authentic?🤣 */
+  background-color: hsl(0, 0%, 20%);
+  color: aliceblue;
 }
 
-button:hover{
-
-    background-color: hsl(0, 0%, 40%); 
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  text-align: end;
+}
+button {
+  width: 80px;
+  height: 80px;
+  /* Those buttons were big lol */
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: bolc;
+  cursor: pointer;
 }
 
-button:active{
-
-    background-color: hsl(0, 0%, 50%); 
+button:hover {
+  background-color: hsl(0, 0%, 40%);
 }
-.operator-btn:hover{
 
-    background-color: hsl(35, 100%, 60%); 
-    
+button:active {
+  background-color: hsl(0, 0%, 50%);
 }
-.operator-btn{
-
-    background-color: hsl(35, 100%, 50%); 
+.operator-btn:hover {
+  background-color: hsl(35, 100%, 60%);
 }
-.operator-btn:active{
-
-    background-color: hsl(35, 100%, 70%); 
-    
+.operator-btn {
+  background-color: hsl(35, 100%, 50%);
+}
+.operator-btn:active {
+  background-color: hsl(35, 100%, 70%);
+}
+#Author {
+  color: #fff;
+}
+#Author:hover {
+  /*when a mouse hovers over your name, the link changes color */
+  color: orange;
 }
